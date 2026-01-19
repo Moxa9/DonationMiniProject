@@ -1,14 +1,45 @@
-# Donation Mini Project
+**#Hand2Hope – Donation Management Mini Project**
+A web-based donation platform prototype developed as part of the Mini Project (22CDS48) under the Department of Computer Science & Engineering (Data Science).
 
-The **Charity Donor Management System** is a web platform that connects donors with charities, enabling campaign creation, donation tracking, and digital receipts. Built using **PHP** and **MySQL**, the system includes an admin dashboard for monitoring and approvals — ensuring transparency, security, and ease in managing donations while encouraging social responsibility.
 
-## ✨ Features
+## Project Description
+Hand2Hope is a web-based donation application designed to digitize and simplify the donation process. The system allows users to enter donor details, select donation amounts, and submit donations through a clean and intuitive interface.
+The project emphasizes usability, transparency, and accessibility, making it suitable for small charitable organizations that lack complex technical resources.
 
-- Donors, charities, and admins can register and log in to access their respective dashboards.  
-- Charities can create campaigns and submit donation requests, while donors can contribute and track their donations.  
-- Admins review and approve campaigns to ensure authenticity and platform integrity.  
-- The platform provides a responsive interface built with HTML, CSS, and JavaScript, ensuring ease of use across devices.  
-- Built using PHP and MySQL, the system includes secure session management, real-time data handling, input validation, and is ready for local deployment via XAMPP.
+## Problem Statement
+Many small NGOs and charitable organizations lack access to affordable and easy-to-use digital donation platforms. Existing systems are often complex and costly, which reduces donor trust and engagement.
+
+
+## Objectives
+- To develop a simple and user-friendly donation platform prototype.
+- To demonstrate the core donation workflow using web technologies.
+- To analyze limitations of existing donation systems and propose improvements.
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+
+## Features
+- Donation form for collecting donor details
+- Donation amount input
+- Basic input validation
+- Donation confirmation message
+- Simple and responsive UI
+
+## How to Run the Project
+1. Clone the repository
+2. Open the project folder
+3. Open `index.html` in a web browser
+4. Fill in the donation form and submit
+
+
+## Project Scope
+This project is a frontend prototype developed for academic purposes. Backend processing, payment gateway integration, and database storage are considered future enhancements.
+
+
+
 
 
 
