@@ -3,6 +3,8 @@ $charity = $_GET['charity'] ?? '';
 $campaign = $_GET['campaign'] ?? '';
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -137,7 +139,8 @@ $campaign = $_GET['campaign'] ?? '';
 <body>
   <div class="container">
     <h2>THANK YOU FOR YOUR DONATION</h2>
-    <form action="process_donation.php" method="post">
+    <form method="post">
+
       <label>Charity Name</label>
       <input type="text" name="charity" value="Sankalp Foundation" readonly />
 
@@ -158,7 +161,9 @@ $campaign = $_GET['campaign'] ?? '';
       </div>
 
       <label>Donation Amount</label>
-      <input type="number" name="amount" placeholder="Enter amount" required>
+<input type="number" name="amount" min="1" required placeholder="Enter amount">
+
+
 
       <button type="submit" class="donate-btn">DONATE NOW</button>
     </form>
