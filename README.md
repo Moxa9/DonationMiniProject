@@ -1,5 +1,6 @@
 ## Hand2Hope – Donation Management Mini Project
-A web-based donation platform prototype developed as part of the Mini Project (22CDS48) under the Department of Computer Science & Engineering (Data Science).
+A web-based donation platform developed as part of the Mini Project (22CDS48) under the Department of Computer Science & Engineering (Data Science).The backend database is used to persist donor and campaign data submitted through the application.
+
 
 
 ## Project Description
@@ -16,9 +17,10 @@ Many small NGOs and charitable organizations lack access to affordable and easy-
 - To analyze limitations of existing donation systems and propose improvements.
 
 ## Tech Stack
-- HTML
-- CSS
-- JavaScript
+- Frontend: HTML, CSS, JavaScript
+- Backend:  PHP 
+- Database: MySQL
+
 
 
 ## Features
@@ -30,22 +32,26 @@ Many small NGOs and charitable organizations lack access to affordable and easy-
 
 ## How to Run the Project
 1. Clone the repository
-2. Open the project folder
-3. Open `index.html` in a web browser
-4. Fill in the donation form and submit
+2. Import the MySQL database using the provided SQL scripts
+3. Configure database connection in the PHP backend
+4. Run the project on a local server (XAMPP / WAMP)
+5. Access the application via browser and submit the donation form
+
 
 
 ## Project Scope
-This project is a frontend prototype developed for academic purposes. Backend processing, payment gateway integration, and database storage are considered future enhancements.
+This project implements a basic backend for storing donor and campaign-related details in a database. Advanced features such as payment gateway integration, authentication, and large-scale deployment are considered future enhancements.
 
 
 
 
 
 
-## 🗂️ Database Configuration
 
-To support the functionality of this system, the following tables should be created:
+
+## 🗂️ Database Design and Implementation
+The backend database stores information related to charities, campaigns, donors, and donations. The following tables are used in the system:
+
 
 
 ###  Charities Table
@@ -101,8 +107,12 @@ CREATE TABLE donation_requests (
     FOREIGN KEY (campaign_id) REFERENCES campaigns(id)
 );
 ```
+## Academic Context
+This project was developed as part of the Mini Project course (22CDS48) for Computer Science & Engineering (Data Science).
 
 ## 🖼️ Screenshots
+The following screenshots illustrate the user interface and donation workflow of the application.
+
 
 ### Main Page
 
