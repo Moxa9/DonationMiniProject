@@ -1,4 +1,4 @@
-**#Hand2Hope – Donation Management Mini Project**
+## Hand2Hope – Donation Management Mini Project
 A web-based donation platform prototype developed as part of the Mini Project (22CDS48) under the Department of Computer Science & Engineering (Data Science).
 
 
